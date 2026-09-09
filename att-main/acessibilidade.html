@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Acessível</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Site Acessível</h1>
+    <p>Esta página possui ferramentas para facilitar a navegação de diferentes usuários.</p>
+</header>
+
+<main>
+
+    <section class="controles" aria-label="Controles de acessibilidade">
+
+        <button onclick="aumentarTexto()">
+            A+ Aumentar texto
+        </button>
+
+        <button onclick="diminuirTexto()">
+            A- Diminuir texto
+        </button>
+
+        <button id="btnAltoContraste" onclick="altoContraste()" aria-pressed="false">
+            🌓 Alto contraste
+        </button>
+
+        <button onclick="lerPagina()">
+            🎶 Ler página
+        </button>
+
+        <button onclick="pararLeitura()">
+            ⏹️ Parar leitura
+        </button>
+
+    </section>
+
+    <section id="conteudo">
+
+        <h2>Bom dia!</h2>
+
+        <p>
+            Bem-vindo ao nosso sistema de acessibilidade!
+            Aqui você pode utilizar os recursos disponíveis para melhorar sua experiência, como aumentar ou diminuir o tamanho do texto, ativar o alto contraste e utilizar a leitura por voz.
+
+        </p>
+
+
+
+
+        <h2> vem com nós</h2>
+
+        <p>
+           aqui todos sao bem vindos.
+        
+
+        </p>
+
+    </section>
+
+</main>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
